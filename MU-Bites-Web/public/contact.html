@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MU-Bites</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />    
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+<script>
+        $(document).ready(function(){
+            // Handle click on paging links
+            $('.tm-paging-link').click(function(e){
+                e.preventDefault();
+                
+                var page = $(this).text().toLowerCase();
+                $('.tm-gallery-page').removeClass('active'); // Remove active class from all pages
+                $('#tm-gallery-page-' + page).addClass('active'); // Add active class to the selected page
+                $('.tm-paging-link').removeClass('active'); // Remove active class from all links
+                $(this).addClass("active"); // Add active class to the selected link
+            });
+
+            // Set the first page as active when the page loads
+            $('.tm-gallery-page:first-child').addClass('active');
+            $('.tm-paging-link:first-child').addClass('active');
+        });
+    </script>
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/MU-main.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+                        <img src="img/MU-logo.png" alt="Logo" class="tm-site-logo"
+                         style="width: 100px; height: 100px; border-radius: 20px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);" />
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">MU-Bites</h1>
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="index.html" class="tm-nav-link active">Home</a></li>
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+</head>
+
+
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Contact Page</h2>
+				<P> Need to get in touch with us? </p>
+			<P>Feel free to contact us through any of the following channels:We're always happy to hear from you and answer any questions you may have.</P>
+			</header>
+
+			<div class="tm-container-inner-2 tm-contact-section">
+				<div class="row">
+					<div class="col-md-6">
+						<form action="" method="POST" class="tm-contact-form">
+					        <div class="form-group">
+					          <input type="text" name="name" class="form-control" placeholder="Name" required="" />
+					        </div>
+					        
+					        <div class="form-group">
+					          <input type="email" name="email" class="form-control" placeholder="Email" required="" />
+					        </div>
+				
+					        <div class="form-group">
+					          <textarea rows="5" name="message" class="form-control" placeholder="Message" required=""></textarea>
+					        </div>
+					
+					        <div class="form-group tm-d-flex">
+					          <button type="submit" class="tm-btn tm-btn-success tm-btn-right">
+					            Send
+					          </button>
+					        </div>
+						</form>
+					</div>
+					<div class="col-md-6">
+						<div class="tm-address-box">
+							<h4 class="tm-info-title tm-text-success">Our Address</h4>
+							<address>
+								Address Airport Avenue, Beirut, Lebanon · P.O. Box 5078/25 · Phone. 00961 1 820930 
+							</address>
+							<a href="tel:01820930" class="tm-contact-link">
+								<i class="fas fa-phone tm-contact-icon"></i>01820930
+							</a>
+							<a href="mu.edu.lb" class="tm-contact-link">
+								<i class="fas fa-envelope tm-contact-icon"></i><email>mu.edu.lb</email>
+							</a>
+							<br>
+							<br>
+									<a href="https://x.com/MaarefUni">
+										<img src="img/twitter.jpg" alt="twitter icon"style="height: 50px; width: 50px;">
+									  <a href="https://www.instagram.com/maarefuniversity/">
+										<img src="img/Instagram.png" alt="Instagram icon"style="height: 50px; width: 50px;">
+									  </a>
+									  <a href="https://www.facebook.com/MaarefUni/">
+										<img src="img/Facebook.png" alt="Facebook icon" style="height: 50px; width: 50px;">
+									  </a>
+					
+					</div>
+				</div>
+			</div>
+			<div class="tm-container-inner-2 tm-map-section">
+				<div class="row">
+					<div class="col-12">
+						<div class="tm-map">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1970.3444539573482!2d35.502363334635284!3d33.84555835510748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f1922fd8dd6e9%3A0x1d20e98f09f44332!2zQWwgTWFhcmVmIFVuaXZlcnNpdHkgLSBCbG9jayBDINis2KfZhdi52Kkg2KfZhNmF2LnYp9ix2YE!5e0!3m2!1sen!2slb!4v1725279178564!5m2!1sen!2slb" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tm-container-inner-2 tm-info-section"></div>
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; 2024 Developed & Designed @ Al Maaref University</p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
