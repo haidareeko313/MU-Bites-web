@@ -7,6 +7,13 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel
 {
+    // ... rest of the code
+
+    protected $commands = [
+        // Other commands
+        \App\Console\Commands\CafeCommand::class,
+    ];
+
     /**
      * Define the application's command schedule.
      */
